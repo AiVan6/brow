@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!-- служебная часть -->
+
+<head>
+  <!-- заголовок страницы -->
+  <title>Адаптивная вёрстка на Бутстрапе</title>
+  <!-- настраиваем служебную информацию для браузеров -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- загружаем Бутстрап -->
+  <link media="screen" rel="stylesheet" href="/assets/css/style.css" type="text/css"></link>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style type="text/css">
+  </style>
+  <!-- закрываем служебную часть страницы -->
+</head>
+
+<body>
+  <!-- тут будет наша страница -->
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Zunge_raus.JPG/200px-Zunge_raus.JPG">
+      </div>
+      <div class="col-8">
+        <img src="https://cdnn11.img.sputnik.by/img/102768/82/1027688237_0:95:1080:705_600x0_80_0_0_74f5fe3ce11b3810db8874bea18b29e0.jpg.webp">
+      </div>
+      <div class="col-2">
+        <img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Zunge_raus.JPG/200px-Zunge_raus.JPG">
+      </div>
+    </div>
+  </div>
+</body>
+<!-- конец всей страницы -->
+
+</html>

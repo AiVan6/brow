@@ -1,0 +1,409 @@
+/*Main Img*/
+/* .mainImg {
+  height: 770px;
+  width: 1406px;
+}
+
+.mainIng .img {
+  background-size: border-box;
+  height: 770px;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 1406px;
+} */
+
+
+.animate-button{
+    cursor: pointer;
+}
+
+.vertical-line {
+    position: relative;
+}
+
+.vertical-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%; /* Положение по центру */
+    border-left: 3px solid #000; /* Цвет и стиль линии */
+    height: 100%; /* Высота линии (можете настроить по своему усмотрению) */
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+.intro{
+    height: 100vh;
+    background: url(../img/image1.png) no-repeat center;
+    background-size: cover;
+    background-position: 50% 50%;
+    left: 0;
+    top: 0;
+}
+
+.rectangle{
+    height: 110vh;
+    background: url(../img/Rectangle.svg) no-repeat center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+
+.rectangle-plan{
+    height: 120vh;
+    background: url(../img/RectangleoPlan.svg) no-repeat center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+ 
+.rectangle-form{
+    height: 100vh;
+    background: url(../img/RectangleForm.svg) no-repeat center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+
+.img-2{
+    width: 100%;
+    height: 120vh;
+    background: url(../img/secPage1920.svg) no-repeat center;
+    /* background-position: 50% 50%; */
+    top:0;
+    left: 0;
+    position: relative;
+    display: block;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* .web{
+    justify-content: center;
+    width: 100%;
+} */
+
+.step{
+    padding-top: 9%;
+}
+
+.step-text{
+    padding-top: 10%;
+}
+
+.why{
+    position: absolute;
+    margin-left: 12%;
+}
+/*Text style*/
+
+.price{
+    color: #000;
+    text-align: center;
+    font-family: "Kreadon-Light", Helvetica;
+    letter-spacing: 0;
+    top: 0;
+    left: 0;
+    line-height: normal;
+}
+
+.price-title{
+    font-size: 64px; 
+}
+
+.price-content{
+    font-size: 24px;
+}
+
+.text{
+    position: relative;
+    color: #000000;
+    font-family: "Arian AMU-Regular", Helvetica;
+    /*font-weight: 400;*/
+    letter-spacing: 0;
+    line-height: normal;
+    overflow: hidden; 
+    transform: rotate(-0.11deg);
+     
+}
+
+.col{
+    position: relative;
+}
+
+.col > *{
+    max-width: 100%;
+}
+
+.text-content{
+    padding-top:7%;
+    font-size: 24px;    
+    /* color: #000;
+    position: absolute;
+    font-family: "Arian AMU-Regular", Helvetica;
+    top:0%;
+    left: 60%;
+    transform: translate(-50%, -150%);
+    /*padding: 10px; 
+    font-size: 26px;
+    margin: 0;
+    vertical-align: middle;
+    text-align: left; */
+}
+
+.text-title-plan{
+    padding-top: 6%;
+    top:0;
+    left: 0;
+    position: fixed;
+    color:#422a19;
+    font-size: 64px;
+    text-align: center;    
+    line-height: normal;
+    position: relative;
+    font-family: "Arian AMU-Regular", Helvetica;
+}
+
+.text-content-plan{
+    
+    padding-top:7%;
+    text-align: center;
+    position: relative;
+    font-family: "Arian AMU-Regular", Helvetica;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.pad-right{
+    padding-left: 7%;
+}
+
+.text-col-rig{
+    margin-top: 20%;
+    padding-left: 25%;
+    padding-right: 10%;
+    width: 100%; /* Установите нужную ширину контейнера */
+    font-size:26px;
+}
+
+.text-col-left{
+    margin-top: 160%;
+    margin-left: 18%;
+    padding-right: 15%;
+    width: 100%; /* Установите нужную ширину контейнера */
+    font-size:26px;
+
+}
+
+.text-welcome{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 24px;
+}
+
+.text-end{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 38px;
+}
+
+.text-wrapper {
+    padding-top: 24%;
+    color: #ffffff;
+    font-family: "Kreadon-Light", Helvetica;
+    font-size: 48px;
+    font-weight: 300;
+    /*left: 307px;*/
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center; 
+    /*padding-top: 21%;*/
+}
+
+.text-overlay {
+    color: #ffffff;
+    position: absolute;
+    font-family: "Arian AMU-Regular", Helvetica;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*padding: 10px; /* Задайте отступы вокруг текста */
+    font-size: 96px;
+    white-space: nowrap;
+    /* border: 1px solid #000; Добавьте границу вокруг текста, если необходимо */
+}
+
+
+.text-box-overlay {
+    color: #000;
+    position: absolute;
+    font-family: "Arian AMU-Regular", Helvetica;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    /*padding: 10px; /* Задайте отступы вокруг текста */
+    text-align: center;
+    white-space: nowrap;
+    /* border: 1px solid #000; Добавьте границу вокруг текста, если необходимо */
+}
+
+.contacts{
+    color:rgba(0,0,0,0.67);
+    text-align: center;
+    font-family: "Arian AMU-Regular", Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+  @font-face {
+    font-family: "Mooli_Regular"; 
+    src: url("../fonts/Mooli-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+    
+    @font-face {
+        font-family: "Kreadon-Light"; 
+        src: url("../fonts/ofont_ru_Kreadon.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+    }
+
+    @font-face {
+        font-family: "Arian AMU-Regular"; 
+        src: url("../fonts/arnamu.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+    }
+
+    @font-face {
+        font-family: "Arian AMU-Bold"; 
+        src: url("../fonts/arnamu.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+    }
+
+    @media all and (min-width: 992px) and (max-width:1200px){
+      
+        
+        .text-content{
+            position: relative;
+            padding-top:7%;
+            font-size: 20px;
+        }
+    
+        .text-wrapper{
+            padding-top: 41%;
+            color: #ffffff;
+            font-family: "Kreadon-Light", Helvetica;
+            font-size: 40px;
+            font-weight: 300;
+            /*left: 307px;*/
+            letter-spacing: 0;
+            line-height: normal;
+            text-align: center; 
+        }
+
+        .text-welcome{
+            text-align: center;
+            padding-left: 20%;
+            padding-right: 20%;
+            font-size: 20px;
+        }
+
+        .img-2{
+            width: 100%;
+            height: 110vh;
+            background: url(../img/secPage1200.svg) no-repeat center;
+            /* background-position: 50% 50%; */
+            top:0;
+            left: 0;
+            position: relative;
+            display: block;
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        
+        .why{
+            position: absolute;
+            margin-left: 0%;
+            max-width: 100%;
+        }
+
+    }
+
+
+    html{
+      background-size: border-box;
+    }
+    
+    *,*::before,*::after{
+      background-size:inherit;
+    }
+
+    /* .yButton {
+        position: fixed!important;
+        width: 100px!important;
+        height: 100px!important;
+        box-sizing: border-box!important;
+    }
+
+
+    .yButton.right {
+        right: 30px;
+    }
+
+    .yButton.bottom {
+        bottom: 30px;
+    }
+
+    .yButtonBackground {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-color: #1c84c6;
+        opacity: .8;
+        box-sizing: border-box;
+        
+    }
+
+    .yButtonText {
+        position: absolute;
+        top: 25px;
+        left: 5px;
+        right: 5px;
+        border-radius: 50%;
+        width: 90px;
+        height: 50px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        letter-spacing: 1.5px;
+        font-family: play,sans-serif;
+        box-sizing: border-box;
+    }
+
+    .yButtonIcon {
+        display: none;
+        box-sizing: border-box;
+    } */
